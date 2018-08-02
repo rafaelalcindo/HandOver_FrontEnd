@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "HandOverFrontEnd": {
+    "HandOver": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/HandOverFrontEnd",
+            "outputPath": "dist/HandOver",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -50,18 +55,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "HandOverFrontEnd:build"
+            "browserTarget": "HandOver:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "HandOverFrontEnd:build:production"
+              "browserTarget": "HandOver:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "HandOverFrontEnd:build"
+            "browserTarget": "HandOver:build"
           }
         },
         "test": {
@@ -95,7 +100,7 @@
         }
       }
     },
-    "HandOverFrontEnd-e2e": {
+    "HandOver-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +108,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "HandOverFrontEnd:serve"
+            "devServerTarget": "HandOver:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "HandOverFrontEnd:serve:production"
+              "devServerTarget": "HandOver:serve:production"
             }
           }
         },
@@ -123,5 +128,5 @@
       }
     }
   },
-  "defaultProject": "HandOverFrontEnd"
+  "defaultProject": "HandOver"
 }
