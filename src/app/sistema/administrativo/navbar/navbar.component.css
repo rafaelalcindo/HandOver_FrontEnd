@@ -5,7 +5,6 @@
 
 .navEstrutura a{
   color: white;
-
 }
 
 .faixa {
@@ -29,7 +28,7 @@
 
 .navbar-nav a:hover {
   background-color: #65963f;
-  border-bottom: 2px solid #3c601f;
+  border-bottom: 6px solid #3c601f;
 
 }
 
@@ -46,4 +45,24 @@
 .settingsIcone:hover {
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
+}
+
+.dropdown {
+  margin-top: 70px;
+  margin-right: 80px;
+  border-radius: 0px;
+}
+
+.dropdown-menu {
+  background-color: #81bf52;
+  border-radius: 0px;
+  width: 170px;
+}
+
+.dropdown-menu a{
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #65963f;
 }
