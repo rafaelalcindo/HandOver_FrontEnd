@@ -66,3 +66,13 @@
 .dropdown-item:hover {
   background-color: #65963f;
 }
+
+.menu_hamburger {
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .menu_hamburger {
+    display: none;
+  }
+}
