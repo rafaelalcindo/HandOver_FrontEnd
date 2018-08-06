@@ -5,3 +5,10 @@ A Técnologia usada é o AngularJs 6, com acesso ao servidor Feito em #NODEJS
 
 Cada Semana lenvantarei um Commit.
 
+## comandos usados
+-> npm install bootstrap --save
+-> npm install jquery --save
+-> npm install popper.js --save
+
+-> npm install json-server --save
+
