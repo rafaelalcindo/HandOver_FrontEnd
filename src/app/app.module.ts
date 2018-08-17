@@ -12,6 +12,7 @@ import { AdministrativoComponent } from './sistema/administrativo/administrativo
 import { NavbarComponent } from './sistema/administrativo/navbar/navbar.component';
 import { FooterComponent } from './sistema/administrativo/footer/footer.component';
 import { SideDrawerComponent } from './sistema/administrativo/navbar/side-drawer/side-drawer.component';
+import { UsuarioComponent } from './sistema/administrativo/usuario/usuario.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SideDrawerComponent } from './sistema/administrativo/navbar/side-drawer
     AdministrativoComponent,
     NavbarComponent,
     FooterComponent,
-    SideDrawerComponent
+    SideDrawerComponent,
+    UsuarioComponent
   ],
   imports: [
     BrowserModule,

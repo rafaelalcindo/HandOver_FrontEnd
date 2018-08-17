@@ -1,0 +1,81 @@
+.todo_usuario {
+    width: 100%;
+    height: 800px;
+    background-color: #f7f7f7;
+}
+
+.ladoEsq {
+  width: 100%;
+  height: 800px;
+  padding: 15px 15px;
+  background-color: #63a548;
+}
+
+.menuEsq {
+  margin: 12px 12px;
+
+}
+
+.listaDir {
+  margin: 30px 45px;
+}
+
+.barra_pesquisa {
+  display: inline;
+}
+
+.lista_de_clientes {
+  margin-top: 40px;
+  width: 90%;
+}
+
+.insert_cards {
+  display: inline;
+}
+
+
+
+/* ============================= Mundança no bootstrap ===================================== */
+
+.list-group-item {
+  background-color: #63a548;
+  border-bottom: 2px solid #003311;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-control {
+  border-radius: 0px;
+  width: 70%;
+  display: initial;
+}
+
+.form-control:focus {
+  border-color: #81bf52;
+  box-shadow: inset 0 1px 1px rgb(45, 134, 45), 0 0 8px rgb(57, 172, 57);
+}
+
+.btn-success {
+  background-color: #81bf52;
+  border-color: #339933;
+  border-radius: 0px;
+}
+
+.btn-success:hover {
+  box-shadow: inset 0 1px 1px rgb(45, 134, 45), 0 0 8px rgb(57, 172, 57);
+}
+
+.btn-success:active {
+  box-shadow: inset 0 1px 1px rgb(45, 134, 45), 0 0 8px rgb(57, 172, 57);
+}
+
+.card {
+  border-radius: 0px;
+  width: 180px;
+  border: 1px solid #008000;
+}
+
+
+.row {
+ margin-right: 0px;
+}
