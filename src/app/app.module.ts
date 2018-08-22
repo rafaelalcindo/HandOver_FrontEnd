@@ -13,6 +13,7 @@ import { NavbarComponent } from './sistema/administrativo/navbar/navbar.componen
 import { FooterComponent } from './sistema/administrativo/footer/footer.component';
 import { SideDrawerComponent } from './sistema/administrativo/navbar/side-drawer/side-drawer.component';
 import { UsuarioComponent } from './sistema/administrativo/usuario/usuario.component';
+import { ProdutosComponent } from './sistema/administrativo/produtos/produtos.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { UsuarioComponent } from './sistema/administrativo/usuario/usuario.compo
     NavbarComponent,
     FooterComponent,
     SideDrawerComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,
