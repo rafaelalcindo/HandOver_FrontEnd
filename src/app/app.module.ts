@@ -14,6 +14,7 @@ import { FooterComponent } from './sistema/administrativo/footer/footer.componen
 import { SideDrawerComponent } from './sistema/administrativo/navbar/side-drawer/side-drawer.component';
 import { UsuarioComponent } from './sistema/administrativo/usuario/usuario.component';
 import { ProdutosComponent } from './sistema/administrativo/produtos/produtos.component';
+import { LockersComponent } from './sistema/administrativo/lockers/lockers.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProdutosComponent } from './sistema/administrativo/produtos/produtos.co
     FooterComponent,
     SideDrawerComponent,
     UsuarioComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    LockersComponent
   ],
   imports: [
     BrowserModule,
